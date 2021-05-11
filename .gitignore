@@ -9,7 +9,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -60,9 +61,6 @@ DerivedData/
 
 ### Xcode Patch ###
 *.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
-
+/Support/**/Info.plist
 # End of https://www.toptal.com/developers/gitignore/api/xcode,macos
