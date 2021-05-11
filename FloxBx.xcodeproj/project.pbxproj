@@ -12,14 +12,12 @@
 		B34BF190264AF6B300D2E047 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = B34BF18F264AF6B300D2E047 /* FloxBxKit */; };
 		B34BF192264AF78B00D2E047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
 		B34BF193264AF79300D2E047 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
+		B34BF195264B22C200D2E047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
 		B3C7FE362649D55C00046580 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
 		B3C7FE372649D55C00046580 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
 		B3C7FE3A2649D55C00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
 		B3C7FE3B2649D55C00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
-		B3C7FE492649D57900046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE482649D57900046580 /* Assets.xcassets */; };
 		B3C7FE502649D57A00046580 /* FloxBx watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3C7FE4F2649D57A00046580 /* FloxBx watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B3C7FE592649D57A00046580 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE582649D57A00046580 /* ComplicationController.swift */; };
-		B3C7FE5B2649D57A00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE5A2649D57A00046580 /* Assets.xcassets */; };
 		B3C7FE5E2649D57A00046580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE5D2649D57A00046580 /* Preview Assets.xcassets */; };
 		B3C7FE622649D57A00046580 /* FloxBx (watchOS).app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B3C7FE462649D57800046580 /* FloxBx (watchOS).app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -76,11 +74,8 @@
 		B3C7FE342649D55C00046580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C7FE352649D55C00046580 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B3C7FE462649D57800046580 /* FloxBx (watchOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloxBx (watchOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C7FE482649D57900046580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C7FE4A2649D57900046580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C7FE4F2649D57A00046580 /* FloxBx watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FloxBx watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C7FE582649D57A00046580 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		B3C7FE5A2649D57A00046580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C7FE5D2649D57A00046580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3C7FE5F2649D57A00046580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,7 +177,6 @@
 		B3C7FE472649D57800046580 /* FloxBx */ = {
 			isa = PBXGroup;
 			children = (
-				B3C7FE482649D57900046580 /* Assets.xcassets */,
 				B3C7FE4A2649D57900046580 /* Info.plist */,
 			);
 			path = FloxBx;
@@ -191,8 +185,6 @@
 		B3C7FE532649D57A00046580 /* FloxBx Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B3C7FE582649D57A00046580 /* ComplicationController.swift */,
-				B3C7FE5A2649D57A00046580 /* Assets.xcassets */,
 				B3C7FE5F2649D57A00046580 /* Info.plist */,
 				B3C7FE5C2649D57A00046580 /* Preview Content */,
 			);
@@ -354,7 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C7FE492649D57900046580 /* Assets.xcassets in Resources */,
+				B34BF195264B22C200D2E047 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +356,6 @@
 			files = (
 				B3C7FE5E2649D57A00046580 /* Preview Assets.xcassets in Resources */,
 				B34BF192264AF78B00D2E047 /* Assets.xcassets in Resources */,
-				B3C7FE5B2649D57A00046580 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B34BF193264AF79300D2E047 /* FloxBxApp.swift in Sources */,
-				B3C7FE592649D57A00046580 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
