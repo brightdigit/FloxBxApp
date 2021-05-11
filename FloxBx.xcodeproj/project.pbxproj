@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34BF18C264AF69F00D2E047 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = B34BF18B264AF69F00D2E047 /* FloxBxKit */; };
+		B34BF18E264AF6AC00D2E047 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = B34BF18D264AF6AC00D2E047 /* FloxBxKit */; };
+		B34BF190264AF6B300D2E047 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = B34BF18F264AF6B300D2E047 /* FloxBxKit */; };
+		B34BF192264AF78B00D2E047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
+		B34BF193264AF79300D2E047 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
 		B3C7FE362649D55C00046580 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
 		B3C7FE372649D55C00046580 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE232649D55B00046580 /* FloxBxApp.swift */; };
-		B3C7FE382649D55C00046580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE242649D55B00046580 /* ContentView.swift */; };
-		B3C7FE392649D55C00046580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE242649D55B00046580 /* ContentView.swift */; };
 		B3C7FE3A2649D55C00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
 		B3C7FE3B2649D55C00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE252649D55C00046580 /* Assets.xcassets */; };
 		B3C7FE492649D57900046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE482649D57900046580 /* Assets.xcassets */; };
 		B3C7FE502649D57A00046580 /* FloxBx watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3C7FE4F2649D57A00046580 /* FloxBx watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B3C7FE552649D57A00046580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE542649D57A00046580 /* ContentView.swift */; };
-		B3C7FE572649D57A00046580 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE562649D57A00046580 /* FloxBxApp.swift */; };
 		B3C7FE592649D57A00046580 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7FE582649D57A00046580 /* ComplicationController.swift */; };
 		B3C7FE5B2649D57A00046580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE5A2649D57A00046580 /* Assets.xcassets */; };
 		B3C7FE5E2649D57A00046580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C7FE5D2649D57A00046580 /* Preview Assets.xcassets */; };
@@ -66,8 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B34BF189264AF50D00D2E047 /* FloxBx */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FloxBx; sourceTree = "<group>"; };
 		B3C7FE232649D55B00046580 /* FloxBxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloxBxApp.swift; sourceTree = "<group>"; };
-		B3C7FE242649D55B00046580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3C7FE252649D55C00046580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C7FE2A2649D55C00046580 /* FloxBx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloxBx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C7FE2D2649D55C00046580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +79,6 @@
 		B3C7FE482649D57900046580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C7FE4A2649D57900046580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C7FE4F2649D57A00046580 /* FloxBx watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FloxBx watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3C7FE542649D57A00046580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B3C7FE562649D57A00046580 /* FloxBxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloxBxApp.swift; sourceTree = "<group>"; };
 		B3C7FE582649D57A00046580 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		B3C7FE5A2649D57A00046580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C7FE5D2649D57A00046580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BF190264AF6B300D2E047 /* FloxBxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BF18E264AF6AC00D2E047 /* FloxBxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,21 +106,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34BF18C264AF69F00D2E047 /* FloxBxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B34BF170264AF50300D2E047 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B34BF189264AF50D00D2E047 /* FloxBx */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		B34BF18A264AF69F00D2E047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3C7FE1D2649D55A00046580 = {
 			isa = PBXGroup;
 			children = (
+				B34BF170264AF50300D2E047 /* Packages */,
 				B3C7FE222649D55B00046580 /* Shared */,
 				B3C7FE2C2649D55C00046580 /* iOS */,
 				B3C7FE332649D55C00046580 /* macOS */,
 				B3C7FE472649D57800046580 /* FloxBx */,
 				B3C7FE532649D57A00046580 /* FloxBx Extension */,
 				B3C7FE2B2649D55C00046580 /* Products */,
+				B34BF18A264AF69F00D2E047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				B3C7FE232649D55B00046580 /* FloxBxApp.swift */,
-				B3C7FE242649D55B00046580 /* ContentView.swift */,
 				B3C7FE252649D55C00046580 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -173,8 +191,6 @@
 		B3C7FE532649D57A00046580 /* FloxBx Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B3C7FE542649D57A00046580 /* ContentView.swift */,
-				B3C7FE562649D57A00046580 /* FloxBxApp.swift */,
 				B3C7FE582649D57A00046580 /* ComplicationController.swift */,
 				B3C7FE5A2649D57A00046580 /* Assets.xcassets */,
 				B3C7FE5F2649D57A00046580 /* Info.plist */,
@@ -209,6 +225,9 @@
 				B3C7FE612649D57A00046580 /* PBXTargetDependency */,
 			);
 			name = "FloxBx (iOS)";
+			packageProductDependencies = (
+				B34BF18F264AF6B300D2E047 /* FloxBxKit */,
+			);
 			productName = "FloxBx (iOS)";
 			productReference = B3C7FE2A2649D55C00046580 /* FloxBx.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +245,9 @@
 			dependencies = (
 			);
 			name = "FloxBx (macOS)";
+			packageProductDependencies = (
+				B34BF18D264AF6AC00D2E047 /* FloxBxKit */,
+			);
 			productName = "FloxBx (macOS)";
 			productReference = B3C7FE322649D55C00046580 /* FloxBx.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +282,9 @@
 			dependencies = (
 			);
 			name = "FloxBx watchOS Extension";
+			packageProductDependencies = (
+				B34BF18B264AF69F00D2E047 /* FloxBxKit */,
+			);
 			productName = "FloxBx Extension";
 			productReference = B3C7FE4F2649D57A00046580 /* FloxBx watchOS Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -338,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C7FE5E2649D57A00046580 /* Preview Assets.xcassets in Resources */,
+				B34BF192264AF78B00D2E047 /* Assets.xcassets in Resources */,
 				B3C7FE5B2649D57A00046580 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C7FE382649D55C00046580 /* ContentView.swift in Sources */,
 				B3C7FE362649D55C00046580 /* FloxBxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C7FE392649D55C00046580 /* ContentView.swift in Sources */,
 				B3C7FE372649D55C00046580 /* FloxBxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,8 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C7FE572649D57A00046580 /* FloxBxApp.swift in Sources */,
-				B3C7FE552649D57A00046580 /* ContentView.swift in Sources */,
+				B34BF193264AF79300D2E047 /* FloxBxApp.swift in Sources */,
 				B3C7FE592649D57A00046580 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -732,6 +755,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B34BF18B264AF69F00D2E047 /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+		B34BF18D264AF6AC00D2E047 /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+		B34BF18F264AF6B300D2E047 /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3C7FE1E2649D55A00046580 /* Project object */;
 }

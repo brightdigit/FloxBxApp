@@ -6,12 +6,8 @@
 //
 
 import SwiftUI
+import FloxBxKit
 
 @main
-struct FloxBxApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+struct FloxBxApp: Application {
 }
