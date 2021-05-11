@@ -123,17 +123,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B34BF196264B23C600D2E047 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3C7FE532649D57A00046580 /* Extension */,
+				B3C7FE472649D57800046580 /* Application */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		B34BF197264B25A600D2E047 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B34BF196264B23C600D2E047 /* watchOS */,
+				B3C7FE332649D55C00046580 /* macOS */,
+				B3C7FE2C2649D55C00046580 /* iOS */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		B3C7FE1D2649D55A00046580 = {
 			isa = PBXGroup;
 			children = (
-				B34BF170264AF50300D2E047 /* Packages */,
-				B3C7FE222649D55B00046580 /* Shared */,
-				B3C7FE2C2649D55C00046580 /* iOS */,
-				B3C7FE332649D55C00046580 /* macOS */,
-				B3C7FE472649D57800046580 /* FloxBx */,
-				B3C7FE532649D57A00046580 /* FloxBx Extension */,
-				B3C7FE2B2649D55C00046580 /* Products */,
+				B34BF197264B25A600D2E047 /* Support */,
 				B34BF18A264AF69F00D2E047 /* Frameworks */,
+				B34BF170264AF50300D2E047 /* Packages */,
+				B3C7FE2B2649D55C00046580 /* Products */,
+				B3C7FE222649D55B00046580 /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,21 +190,21 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		B3C7FE472649D57800046580 /* FloxBx */ = {
+		B3C7FE472649D57800046580 /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				B3C7FE4A2649D57900046580 /* Info.plist */,
 			);
-			path = FloxBx;
+			path = Application;
 			sourceTree = "<group>";
 		};
-		B3C7FE532649D57A00046580 /* FloxBx Extension */ = {
+		B3C7FE532649D57A00046580 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				B3C7FE5F2649D57A00046580 /* Info.plist */,
 				B3C7FE5C2649D57A00046580 /* Preview Content */,
 			);
-			path = "FloxBx Extension";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		B3C7FE5C2649D57A00046580 /* Preview Content */ = {
@@ -521,7 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Support/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,7 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Support/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,13 +579,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Support/macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = Support/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -587,13 +603,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Support/macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = Support/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -611,10 +627,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FloxBx Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Support/watchOS/Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FloxBx Extension/Info.plist";
+				INFOPLIST_FILE = Support/watchOS/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,10 +651,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FloxBx Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Support/watchOS/Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FloxBx Extension/Info.plist";
+				INFOPLIST_FILE = Support/watchOS/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,7 +680,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				IBSC_MODULE = FloxBx_Extension;
-				INFOPLIST_FILE = FloxBx/Info.plist;
+				INFOPLIST_FILE = Support/watchOS/Application/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -684,7 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				IBSC_MODULE = FloxBx_Extension;
-				INFOPLIST_FILE = FloxBx/Info.plist;
+				INFOPLIST_FILE = Support/watchOS/Application/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
