@@ -88,7 +88,7 @@ targets:
 #       Release:
 #         CODE_SIGN_IDENTITY: iPhone Distribution
 #         PROVISIONING_PROFILE_SPECIFIER: match AppStore com.brightdigit.Heartwitch-watchOS-app.watchkitapp
-  FloxBxiOS:
+  FloxBx.iOS:
     type: application
     platform: iOS
     dependencies:
@@ -130,7 +130,7 @@ targets:
 #         CODE_SIGN_IDENTITY: iPhone Distribution
 #         PROVISIONING_PROFILE_SPECIFIER: match AppStore com.brightdigit.Heartwitch-watchOS-app
 
-  FloxBxMacOS:
+  FloxBx.macOS:
     type: application
     platform: macOS
     dependencies:
