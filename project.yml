@@ -141,11 +141,10 @@ targets:
       configs:
         Debug:
           CODE_SIGN_IDENTITY: iPhone Developer
-          PROVISIONING_PROFILE_SPECIFIER: match Development com.brightdigit.FloxBx
+          PROVISIONING_PROFILE_SPECIFIER: match Development com.brightdigit.FloxBx macos
         Release:
           CODE_SIGN_IDENTITY: iPhone Distribution
-          PROVISIONING_PROFILE_SPECIFIER: match AppStore com.brightdigit.FloxBx
-    info:
+          PROVISIONING_PROFILE_SPECIFIER: match AppStore com.brightdigit.FloxBx macos
       path: Support/macOS/Info.plist
       properties:
         ITSAppUsesNonExemptEncryption: false
