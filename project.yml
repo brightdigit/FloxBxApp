@@ -18,8 +18,8 @@ targets:
       - package: FloxBxKit
     sources:
       - path: "Support/watchOS/Extension"
-        name: Support
-        group: Extension
+        name: Extension
+        group: Support/watchOS
       - path: "Shared"
     info:
       path: Support/watchOS/Extension/Info.plist
@@ -59,8 +59,8 @@ targets:
       - target: "FloxBx.watchkitapp.watchkitextension"
     sources:
       - path: "Support/watchOS/Application"
-        name: Support
-        group: Extension
+        name: Application
+        group: Support/watchOS
       - path: "Shared/Assets.xcassets"
     info:
       path: Support/watchOS/Application/Info.plist
@@ -96,7 +96,8 @@ targets:
       - target: "FloxBx.watchkitapp"
     sources:
       - path: "Support/iOS"
-        name: Support
+        name: iOS
+        group: Support
       - path: "Shared"
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: ${bundleIdPrefix}.FloxBx
@@ -108,7 +109,7 @@ targets:
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleDisplayName: FloxBx
     entitlements:
-      path: Support/macOS/iOS.entitlements
+      path: Support/iOS/iOS.entitlements
       properties:
         com.apple.developer.applesignin: 
           - Default
@@ -136,7 +137,8 @@ targets:
       - package: FloxBxKit
     sources:
       - path: "Support/macOS"
-        name: Support
+        name: macOS
+        group: Support
       - path: "Shared"
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: ${bundleIdPrefix}.FloxBx
