@@ -62,5 +62,6 @@ DerivedData/
 ### Xcode Patch ###
 *.xcodeproj/*
 **/xcshareddata/WorkspaceSettings.xcsettings
-/Support/**/Info.plist
+/Support/**/*.plist
+/Support/**/*.entitlements
 # End of https://www.toptal.com/developers/gitignore/api/xcode,macos
