@@ -80,4 +80,8 @@ DerivedData/
 *.zip
 *.pkg
 *.app
+
+**/*.xcassets/**/*.png
+**/*.xcassets/**/*.pdf
+**/*.xcassets/**/*.svg
 # End of https://www.toptal.com/developers/gitignore/api/xcode,macos
