@@ -43,6 +43,8 @@ targets:
         com.apple.security.files.user-selected.read-only: true
         com.apple.security.application-groups:
           - group.com.brightdigit.FloxBx
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.brightdigit.FloxBx
     settings:
       configs:
         Debug:
@@ -123,7 +125,8 @@ targets:
         com.apple.security.files.user-selected.read-only: true
         com.apple.security.application-groups:
           - group.com.brightdigit.FloxBx
-
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.brightdigit.FloxBx
   FloxBx.macOS:
     type: application
     platform: macOS
@@ -163,3 +166,5 @@ targets:
         com.apple.security.files.user-selected.read-only: true
         com.apple.security.application-groups:
           - group.com.brightdigit.FloxBx
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.brightdigit.FloxBx
