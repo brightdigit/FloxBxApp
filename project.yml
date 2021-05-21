@@ -7,6 +7,7 @@ settings:
   MARKETING_VERSION: "1.0.0"
   CURRENT_PROJECT_VERSION: "1"
   bundleIdPrefix: com.brightdigit
+  PRODUCT_NAME: FloxBx
 packages:
   FloxBxKit:
     path: ./Packages/FloxBxKit
