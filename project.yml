@@ -134,6 +134,13 @@ targets:
     scheme: {}
     dependencies:
       - package: FloxBxKit
+    info:
+      path: Support/macOS/Info.plist
+      properties:
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: FloxBx
     sources:
       - path: "Support/macOS"
         name: macOS
