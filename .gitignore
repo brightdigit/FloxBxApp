@@ -84,4 +84,7 @@ DerivedData/
 **/*.xcassets/**/*.png
 **/*.xcassets/**/*.pdf
 **/*.xcassets/**/*.svg
+
+.bundle
+vendor
 # End of https://www.toptal.com/developers/gitignore/api/xcode,macos
