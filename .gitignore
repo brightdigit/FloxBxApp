@@ -72,7 +72,7 @@ DerivedData/
 **/fastlane/test_output
 
 ### Xcode Patch ###
-*.xcodeproj/*
+#*.xcodeproj/*
 **/xcshareddata/WorkspaceSettings.xcsettings
 /Support/**/*.plist
 /Support/**/*.entitlements

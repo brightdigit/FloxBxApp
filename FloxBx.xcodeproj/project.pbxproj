@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078C025C8558335A447AA201 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0823204CACC9D98CCDA8A87B /* FloxBxKit */; };
+		0995B66F9735B16B2AD9F989 /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0BF2A140CB4F868B0FB90D6 /* FloxBxKit */; };
+		45D9C69A04B166CEE622345B /* FloxBxKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0F423A7976D1CFBEE79F2D7 /* FloxBxKit */; };
+		4E8DA5183AB7EDE3943DD33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */; };
+		7DE89C3503FE6C8F543FAA43 /* FloxBx.watchkitapp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3096C40ED4B619CDA3DD0215 /* FloxBx.watchkitapp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D6364F2B64E174766299A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */; };
+		9572AE3D4604DF10B17DAF14 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160696D7D92577C8C90DD162 /* FloxBxApp.swift */; };
+		C4E3251F07BC14CEC2570ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */; };
+		C62774D3D74D7DE26985D045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */; };
+		CF806BDCA086B9B502F93FDB /* FloxBx.watchkitapp.watchkitextension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAE3B3C5CF4004B5CB2B6268 /* FloxBx.watchkitapp.watchkitextension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E89139AE9D5E4CD422CB6173 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160696D7D92577C8C90DD162 /* FloxBxApp.swift */; };
+		EEC5DD3BA03D6A9B40F3CF90 /* FloxBxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160696D7D92577C8C90DD162 /* FloxBxApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DD238774169CBB8ED7F9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02109AA5EE627771475CCCF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079AE0E87AF959EABDF71489;
+			remoteInfo = FloxBx.watchkitapp.watchkitextension;
+		};
+		7C5BD70996F82D446753E76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02109AA5EE627771475CCCF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8C5AF5A3E17D839297599B;
+			remoteInfo = FloxBx.watchkitapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E1FC60EAB36B12BCA34C354 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF806BDCA086B9B502F93FDB /* FloxBx.watchkitapp.watchkitextension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179A60E192553797055E18E4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7DE89C3503FE6C8F543FAA43 /* FloxBx.watchkitapp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F4D8623E83724EF6353F32 /* FloxBx.iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FloxBx.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B336E16510CAC8F9F5C8AEA /* watchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watchOS.entitlements; sourceTree = "<group>"; };
+		160696D7D92577C8C90DD162 /* FloxBxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloxBxApp.swift; sourceTree = "<group>"; };
+		1C71F373B75F744BA3F58373 /* watchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watchOS.entitlements; sourceTree = "<group>"; };
+		2B633351EEDC1C6462613BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3096C40ED4B619CDA3DD0215 /* FloxBx.watchkitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloxBx.watchkitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		345BDADCB9047D59E9A591E3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		49121585BE8653944C563165 /* FloxBx.macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloxBx.macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B62BCBFE6B4D9EC5F3CD6C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		756868D2B6F811C705AE1372 /* FloxBxKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FloxBxKit; path = Packages/FloxBxKit; sourceTree = SOURCE_ROOT; };
+		A6B24AA28DF10BE790F6B481 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26F9ACC8DF2E8F1E8FC3B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D0F54B178546520EFF0010C1 /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
+		D2B68A7E1492E078F045810D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		D3B4C4534F7384991CB6C318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D53F05BDCCBB17F37BE115FC /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E83A44D731BEB7C9EE1D97C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAE3B3C5CF4004B5CB2B6268 /* FloxBx.watchkitapp.watchkitextension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FloxBx.watchkitapp.watchkitextension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279745AEEEC7CF7D2CFAAB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995B66F9735B16B2AD9F989 /* FloxBxKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5201617615F213FD02241AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D9C69A04B166CEE622345B /* FloxBxKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F493B69DEE225203C2C902CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C025C8558335A447AA201 /* FloxBxKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3B5B5C6425049E47147DE3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6B24AA28DF10BE790F6B481 /* .gitkeep */,
+				E83A44D731BEB7C9EE1D97C3 /* Info.plist */,
+				D0F54B178546520EFF0010C1 /* iOS.entitlements */,
+			);
+			name = iOS;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6B7E0AC0FE26F11B5E3280AA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B70E4AE5C6324781C5A3B1D6 /* Assets.xcassets */,
+				160696D7D92577C8C90DD162 /* FloxBxApp.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6F54E47C296E785D2A32E56D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D53F05BDCCBB17F37BE115FC /* .gitkeep */,
+				C26F9ACC8DF2E8F1E8FC3B05 /* Info.plist */,
+				1C71F373B75F744BA3F58373 /* watchOS.entitlements */,
+			);
+			name = Application;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		70A8CCA2BFB0A7ECD539238C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F4D8623E83724EF6353F32 /* FloxBx.iOS.app */,
+				49121585BE8653944C563165 /* FloxBx.macOS.app */,
+				3096C40ED4B619CDA3DD0215 /* FloxBx.watchkitapp.app */,
+				FAE3B3C5CF4004B5CB2B6268 /* FloxBx.watchkitapp.watchkitextension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7EDCAF479577AD488DE3F5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				756868D2B6F811C705AE1372 /* FloxBxKit */,
+			);
+			name = Packages;
+			sourceTree = SOURCE_ROOT;
+		};
+		AE2CDDEA474E29EAF7117914 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				73B62BCBFE6B4D9EC5F3CD6C /* .gitkeep */,
+				2B633351EEDC1C6462613BE5 /* Info.plist */,
+				0B336E16510CAC8F9F5C8AEA /* watchOS.entitlements */,
+			);
+			name = Extension;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B047EC6452AEF37E9FBE5CC4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D2B68A7E1492E078F045810D /* .gitkeep */,
+				D3B4C4534F7384991CB6C318 /* Info.plist */,
+				345BDADCB9047D59E9A591E3 /* macOS.entitlements */,
+			);
+			name = macOS;
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CB91CD2A3E35AF9A6E29CA43 = {
+			isa = PBXGroup;
+			children = (
+				AC7EDCAF479577AD488DE3F5 /* Packages */,
+				6B7E0AC0FE26F11B5E3280AA /* Shared */,
+				E784030846674A88ED8BC206 /* Support */,
+				70A8CCA2BFB0A7ECD539238C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D420941A1CFC2FA0567329 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F54E47C296E785D2A32E56D /* Application */,
+				AE2CDDEA474E29EAF7117914 /* Extension */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		E784030846674A88ED8BC206 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B5B5C6425049E47147DE3 /* iOS */,
+				B047EC6452AEF37E9FBE5CC4 /* macOS */,
+				D6D420941A1CFC2FA0567329 /* watchOS */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079AE0E87AF959EABDF71489 /* FloxBx.watchkitapp.watchkitextension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3C77AC364E0F82D826C1FE /* Build configuration list for PBXNativeTarget "FloxBx.watchkitapp.watchkitextension" */;
+			buildPhases = (
+				0872D1653E1EE225360E058A /* Sources */,
+				696583BB1D09D2CD3D25323F /* Resources */,
+				E5201617615F213FD02241AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloxBx.watchkitapp.watchkitextension;
+			packageProductDependencies = (
+				E0F423A7976D1CFBEE79F2D7 /* FloxBxKit */,
+			);
+			productName = FloxBx.watchkitapp.watchkitextension;
+			productReference = FAE3B3C5CF4004B5CB2B6268 /* FloxBx.watchkitapp.watchkitextension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3C8C5AF5A3E17D839297599B /* FloxBx.watchkitapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E0FC9DDA874D9EB33FA1E8 /* Build configuration list for PBXNativeTarget "FloxBx.watchkitapp" */;
+			buildPhases = (
+				FF40BD0792758A3585B2E739 /* Sources */,
+				988F420CB1F6C1FA639B05C3 /* Resources */,
+				0E1FC60EAB36B12BCA34C354 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AE61B9AAE6D4BB7AF3AF26 /* PBXTargetDependency */,
+			);
+			name = FloxBx.watchkitapp;
+			productName = FloxBx.watchkitapp;
+			productReference = 3096C40ED4B619CDA3DD0215 /* FloxBx.watchkitapp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		96EEC7DA6A50351A395878DB /* FloxBx.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757C732EAF449F6C8EE2EAF2 /* Build configuration list for PBXNativeTarget "FloxBx.iOS" */;
+			buildPhases = (
+				C9967E0FD2C882A63C6FB342 /* Sources */,
+				CA88A5500978166226F2F48D /* Resources */,
+				F493B69DEE225203C2C902CA /* Frameworks */,
+				179A60E192553797055E18E4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1EAE8FFFCFC020CB05DA6C /* PBXTargetDependency */,
+			);
+			name = FloxBx.iOS;
+			packageProductDependencies = (
+				0823204CACC9D98CCDA8A87B /* FloxBxKit */,
+			);
+			productName = FloxBx.iOS;
+			productReference = 06F4D8623E83724EF6353F32 /* FloxBx.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82CCA477C665C7CF6734A82 /* FloxBx.macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B0C5A7F7EE52591280CB38 /* Build configuration list for PBXNativeTarget "FloxBx.macOS" */;
+			buildPhases = (
+				2A6BE3AD9EBEC77D5953A1CB /* Sources */,
+				B49A1E5571CEC9311A27FAA9 /* Resources */,
+				279745AEEEC7CF7D2CFAAB7E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloxBx.macOS;
+			packageProductDependencies = (
+				A0BF2A140CB4F868B0FB90D6 /* FloxBxKit */,
+			);
+			productName = FloxBx.macOS;
+			productReference = 49121585BE8653944C563165 /* FloxBx.macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02109AA5EE627771475CCCF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					079AE0E87AF959EABDF71489 = {
+						DevelopmentTeam = MLT7M394S7;
+					};
+					3C8C5AF5A3E17D839297599B = {
+						DevelopmentTeam = MLT7M394S7;
+					};
+					96EEC7DA6A50351A395878DB = {
+						DevelopmentTeam = MLT7M394S7;
+					};
+					D82CCA477C665C7CF6734A82 = {
+						DevelopmentTeam = MLT7M394S7;
+					};
+				};
+			};
+			buildConfigurationList = AD0634497378B6FDD30FE274 /* Build configuration list for PBXProject "FloxBx" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB91CD2A3E35AF9A6E29CA43;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96EEC7DA6A50351A395878DB /* FloxBx.iOS */,
+				D82CCA477C665C7CF6734A82 /* FloxBx.macOS */,
+				3C8C5AF5A3E17D839297599B /* FloxBx.watchkitapp */,
+				079AE0E87AF959EABDF71489 /* FloxBx.watchkitapp.watchkitextension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696583BB1D09D2CD3D25323F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E3251F07BC14CEC2570ECB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988F420CB1F6C1FA639B05C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8DA5183AB7EDE3943DD33D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49A1E5571CEC9311A27FAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62774D3D74D7DE26985D045 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA88A5500978166226F2F48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6364F2B64E174766299A23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0872D1653E1EE225360E058A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9572AE3D4604DF10B17DAF14 /* FloxBxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6BE3AD9EBEC77D5953A1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89139AE9D5E4CD422CB6173 /* FloxBxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9967E0FD2C882A63C6FB342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5DD3BA03D6A9B40F3CF90 /* FloxBxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF40BD0792758A3585B2E739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1EAE8FFFCFC020CB05DA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8C5AF5A3E17D839297599B /* FloxBx.watchkitapp */;
+			targetProxy = 7C5BD70996F82D446753E76F /* PBXContainerItemProxy */;
+		};
+		E3AE61B9AAE6D4BB7AF3AF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079AE0E87AF959EABDF71489 /* FloxBx.watchkitapp.watchkitextension */;
+			targetProxy = 56DD238774169CBB8ED7F9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0393478A6069E3774089FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Support/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${bundleIdPrefix}.FloxBx";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.brightdigit.FloxBx macos";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		13903AD28D02AFA76F44BE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = FloxBx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				bundleIdPrefix = com.brightdigit;
+			};
+			name = Debug;
+		};
+		59E1BE9F9D490D6BBCC9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = FloxBx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				bundleIdPrefix = com.brightdigit;
+			};
+			name = Release;
+		};
+		8057BA46177A885D8DF79D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/iOS/iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${bundleIdPrefix}.FloxBx";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.brightdigit.FloxBx";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4F68449707E2AE6B6EA646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = Support/watchOS/Extension/watchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Support/watchOS/Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp.watchkitextension;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.brightdigit.FloxBx.watchkitapp.watchkitextension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		AEEF92506F54623452497776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/watchOS/Application/watchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Support/watchOS/Application/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.brightdigit.FloxBx.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		C62993EB09F812A39D004897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = Support/watchOS/Extension/watchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/watchOS/Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp.watchkitextension;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.brightdigit.FloxBx.watchkitapp.watchkitextension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		D11528DF47C94D26A0465299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/watchOS/Application/watchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/watchOS/Application/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FloxBx.watchkitapp;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.brightdigit.FloxBx.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		E6084E9318AB2191D7614E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/iOS/iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Support/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${bundleIdPrefix}.FloxBx";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.brightdigit.FloxBx";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB048121FB0EEB0DF016A63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Support/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "${bundleIdPrefix}.FloxBx";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.brightdigit.FloxBx macos";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E0FC9DDA874D9EB33FA1E8 /* Build configuration list for PBXNativeTarget "FloxBx.watchkitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11528DF47C94D26A0465299 /* Debug */,
+				AEEF92506F54623452497776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		757C732EAF449F6C8EE2EAF2 /* Build configuration list for PBXNativeTarget "FloxBx.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8057BA46177A885D8DF79D22 /* Debug */,
+				E6084E9318AB2191D7614E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E3C77AC364E0F82D826C1FE /* Build configuration list for PBXNativeTarget "FloxBx.watchkitapp.watchkitextension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62993EB09F812A39D004897 /* Debug */,
+				A4F68449707E2AE6B6EA646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD0634497378B6FDD30FE274 /* Build configuration list for PBXProject "FloxBx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13903AD28D02AFA76F44BE56 /* Debug */,
+				59E1BE9F9D490D6BBCC9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7B0C5A7F7EE52591280CB38 /* Build configuration list for PBXNativeTarget "FloxBx.macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0393478A6069E3774089FCB1 /* Debug */,
+				FB048121FB0EEB0DF016A63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0823204CACC9D98CCDA8A87B /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+		A0BF2A140CB4F868B0FB90D6 /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+		E0F423A7976D1CFBEE79F2D7 /* FloxBxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FloxBxKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02109AA5EE627771475CCCF1 /* Project object */;
+}
